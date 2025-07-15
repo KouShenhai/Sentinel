@@ -13,7 +13,7 @@
 
     <properties>
         <java.source.version>17</java.source.version>
-        <java.target.version>17</java.target.version>
+        <java.target.version>1.8</java.target.version>
         <reactor.version>3.2.6.RELEASE</reactor.version>
     </properties>
 

@@ -14,7 +14,7 @@
 
     <properties>
         <java.source.version>17</java.source.version>
-        <java.target.version>17</java.target.version>
+        <java.target.version>1.8</java.target.version>
         <zuul.version>2.1.5</zuul.version>
     </properties>
 
