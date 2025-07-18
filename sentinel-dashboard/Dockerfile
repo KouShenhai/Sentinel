@@ -15,7 +15,7 @@
 #  */
 FROM docker.io/sunrdocker/jdk17-jre-font-openssl-alpine:latest
 LABEL maintainer="laokou"
-LABEL description="sentinel"
+LABEL description="sentinel-dashboard"
 COPY target/sentinel-dashboard.jar app.jar
 EXPOSE 8972
 CMD java $JVM_OPTS -jar app.jar > /dev/null 2>&1
